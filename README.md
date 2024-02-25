@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-ctor@deno/mod.js';
+import Gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-ctor@v0.2.1-deno/mod.js';
 ```
 
 #### Gumbel( \[mu, beta] )
@@ -303,7 +303,7 @@ y = gumbel.quantile( 1.9 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-ctor@deno/mod.js';
+import Gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-ctor@v0.2.1-deno/mod.js';
 
 var gumbel = new Gumbel( 2.0, 4.0 );
 
