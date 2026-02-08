@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-ctor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-gumbel-ctor/tags). For example,
+
+```javascript
 import Gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-ctor@v0.2.3-esm/index.mjs';
 ```
 
@@ -308,7 +313,7 @@ y = gumbel.quantile( 1.9 );
 <body>
 <script type="module">
 
-import Gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-ctor@v0.2.3-esm/index.mjs';
+import Gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel-ctor@esm/index.mjs';
 
 var gumbel = new Gumbel( 2.0, 4.0 );
 
